@@ -15,7 +15,7 @@
 9. **nunique()** - get the number of unique observations,
 10. **set_index()** - set an index for the DataFrame.
 
-### We also used following DataFrame attributtes:
+### We also used following DataFrame attributes:
 1. **dtypes** - determine the data type of each column,
 2. **index** - check how data is indexed.
 
@@ -41,3 +41,4 @@
     `drinks.groupby('continent')['spirit_servings'].agg(['mean','min', 'max'])`
 
 - We encountered a small difficulty - while loading the data, we discovered that the continent code for **North America (NA)** was being read as a **NULL** value. To solve this problem, we used ***keep_default_na=False*** in **pd.read_csv()**.
+`drinks = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT8/master/data/drinks.csv', sep=',', keep_default_na=False)`

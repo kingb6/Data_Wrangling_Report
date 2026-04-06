@@ -1,7 +1,7 @@
 # Data Wrangling Report
 
 ## First exercise
-[Click here for first exercise](Ex1.ipynb)
+[Click here for the first exercise](Ex1.ipynb)
 
 ### In the first exercise we analyzed data about specific users. We used basic functions from pandas, such as:
 1. **read_csv()** - import data from an external address,
@@ -20,7 +20,7 @@
 2. **index** - check how data is indexed.
 
 ## Second exercise
-[Click here for second exercise](Ex2.ipynb)
+[Click here for the second exercise](Ex2.ipynb)
 
 ### In the second exercise we analyzed data about Euro 2012. We used functions from previous exercise, as well as several new functions to filter and sort data:
 1. **sort_values** - sort values by a column,
@@ -33,7 +33,7 @@
 `euro12[euro12['Goals'] > 6]`
 
 ## Third exercise
-[Click here for third exercise](Ex3.ipynb)
+[Click here for the third exercise](Ex3.ipynb)
 
 ### In the third exercise we analyzed data about drinks. The main function used was groupby(). Function happened to be extremely useful for extracting specific data that interested us.
 
